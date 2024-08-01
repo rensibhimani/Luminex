@@ -1,0 +1,47 @@
+
+/* ***** Common Css **** */
+:root {
+    scroll-behavior: initial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+a,button{
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-size: 10px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+
+.main-wrpper {
+    height: 100%;
+    width: 100%;
+}
+.container{max-width: 1640px;}
+/* ***** End Common Css **** */
+
