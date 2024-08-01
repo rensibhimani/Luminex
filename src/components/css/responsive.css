@@ -1,0 +1,797 @@
+@media(min-width:1201px) and (max-width:1700px){
+	.container{max-width: 1170px;}
+	.notebox p{font-size: 14px;margin: 0 5px;}
+	.notebox img{width: 15px;}
+	.toplinks ul li a{padding: 10px 0;font-size: 14px;}
+	.toplinks ul li a.patient-btn{padding: 10px 20px;}
+	header{padding: 15px 0;}
+	.navbar-brand img{height: 40px;}
+	.navbar-light .navbar-nav li{margin-right: 15px;}
+	.navbar-light .navbar-nav li .dropdown-menu li a,.navbar-light .navbar-nav .nav-link{font-size: 14px;}
+
+	.hero-banner img{object-fit: cover;object-position: center;}
+	.banner-center h1{font-size: 52px;line-height:62px;}
+
+	.intro-wrp{padding: 60px 0;}
+	.intro-wrp h2{font-size: 38px;margin: 0 auto 35px;}
+	.intro-wrp p{font-size: 18px;line-height: 28px;}
+	.intro-row{padding: 30px 0 0;}
+	.intro-box{padding: 30px;}
+	.intro-box h6{font-size: 20px;line-height: 30px;margin: 0 0 0 15px;}
+	.intro-box img{min-width: 40px;}
+
+	.why-choose-wrp,.service-wrp{padding: 60px 0 30px;}
+	.titlebar h2{font-size: 38px;margin: 0 0 35px;}
+	.service-box{padding: 30px;}
+	.service-box h3{font-size: 28px;line-height: 36px;}
+	.jurney-data p,.service-box p{font-size: 18px;line-height: 26px;}
+
+	.why-choose-wrp .col-md-3{width: 50%;}
+	.why-choose-box{padding: 30px;margin: 0 0 30px;height: calc(100% - 30px);}
+	.why-choose-box h3{font-size: 26px;min-height: 50px;}
+
+	.your-jurney-wrp{padding: 60px 0 30px;}
+	.jurney-box{padding: 30px 25px 0;height: auto;margin: 0 0 30px;}
+	.jurney-box h3{font-size: 24px;line-height: 32px;}
+	.jurney-box p{font-size: 16px;}
+
+	.testimonial-wrp{padding: 60px 0;}
+	.testimonial-slider .slick-list{margin: 0 -20px;}
+	.testimonial-slider .slick-slide{margin: 0 20px;}
+	.testimonial-box{padding: 40px;}
+	.testimonial-box h3{font-size: 28px;}
+	.testimonial-box p{font-size: 20px;line-height: 30px;}
+	.testimonial-slider .slick-dots{margin: 25px auto 0;}
+
+	.sponcers-wrp{padding: 30px 0;}
+	.sponcer-box img{width: 100%;}
+
+	.news-letter-box h3, .quicklinks h3{font-size: 24px;margin: 0 0 15px;}
+	.quicklinks li a{font-size: 14px;padding: 5px 0;}
+	.quicklinks{padding: 30px 15px;}
+	.news-letter-box{padding: 30px 15px;}
+	.news-block .form-control{padding: 20px 120px 20px 15px;}
+	.news-block button{padding: 10px 20px;top: 7px;}
+	.copyright{padding: 25px 0;}
+	.copyright p{font-size: 15px;}
+
+
+	.weight-loss-banner img{object-position:center;}
+	.weight-loss-banner .banner-center h1{font-size:42px;}
+	.weight-loss-banner .banner-center p{font-size: 18px;line-height: 28px;max-width: 60%;}
+	.btn-main{padding: 12px 30px;font-size: 16px;}
+	.weight-wrp{padding: 60px 0;}
+	.weight-loss-block h2{font-size: 30px;line-height: 40px;}
+	.weight-loss-block p{font-size: 16px;line-height: 26px;margin: 0 0 15px;}
+	.why-choose-hormones-wrp{padding: 60px 0;}
+	.hormones-ic{width: 85px;height: 85px;top: -40px;}
+	.hormones-ic img{height: 40px;}
+	.hormones-block{padding: 60px 15px 30px;}
+	.hormones-block h3{font-size: 24px;}
+	.hormones-block p{font-size: 16px;line-height: 26px;}
+
+
+	.methods-box{padding: 25px 15px 15px;}
+	.method-ic img{width: 40px;}
+	.method-ic{margin: 0 auto 15px;}
+	.womens-block-wrp{padding: 50px 0;margin: 0 0 30px;}
+	.methods-wrp{padding: 50px 0;}
+	.womens-block-wrp p{font-size: 16px;line-height: 24px;}
+	.methods-wrp p{font-size: 16px;line-height: 24px;margin: 0 0 35px;}
+	.methods-box h6{line-height: 26px;font-size: 16px;}
+	.methods-list{margin: 0 0 25px;}
+	.methods-benifits-block ul li{font-size: 16px;line-height: 24px;padding: 15px 25px 15px 55px}
+
+	.peptides-box h3{font-size: 24px;}
+	.peptides-box p{font-size: 16px;line-height: 24px;}
+	.peptides-box{padding: 25px;}
+	.performance-box{padding: 30px 15px;}
+	.performance-box img{width: 45px;}
+	.performance-box h3{font-size: 20px;line-height: 26px;}
+	.performance-box p{font-size: 14px;line-height: 22px;}
+	.therapy-box h4{width: 85px;height: 85px;line-height: 85px;font-size: 22px;}
+	.therapy-box{padding: 60px 15px 30px;}
+	.therapy-box h3{font-size: 22px;}
+	.therapy-box p{font-size: 16px;line-height: 24px;}
+
+	.life-guidence-wrp,.everything-wrp{padding: 60px 0;}
+	.everything-data{padding: 0 65px 0px 0;}
+	.everything-data h3{font-size: 42px;line-height: 52px;}
+	.everything-data p{font-size:18px;line-height: 28px;}
+	.jurney-box{height: 100%;margin: 0;}
+
+
+	.blog-wrpper{padding: 50px 0 10px;}
+	.blog-wrpper .row{margin: 0 -15px;}
+	.blog-wrpper .row .col-md-4{padding: 0 15px;width: 33.33%;}
+	.blog-data{padding: 25px 15px;}
+	.blog-data h3{font-size: 22px;margin: 0 0 15px;}
+	.blog-data p{font-size: 16px;line-height: 26px;}
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+	.container{max-width: 990px;}
+	header .container{max-width: 990px;}
+	.notebox p{font-size: 12px;margin: 0 5px;}
+	.notebox img{width: 15px;}
+	.toplinks ul li a{padding: 10px 0;font-size: 12px;}
+	.toplinks ul li a.patient-btn{padding: 10px 20px;}
+	header{padding: 10px 0;}
+	.navbar-brand img{height: 30px;}
+	.navbar-light .navbar-nav li{margin-right: 10px;}
+	.navbar-light .navbar-nav li .dropdown-menu li a,.navbar-light .navbar-nav .nav-link{font-size: 12px;}
+
+	.hero-banner img{height: 80vh;object-fit: cover;object-position: center;}
+	.banner-center h1{font-size: 42px;line-height:52px;}
+
+	.intro-wrp{padding: 60px 0;}
+	.intro-wrp h2{font-size: 38px;margin: 0 auto 35px;}
+	.intro-wrp p{font-size: 18px;line-height: 28px;}
+	.intro-row{padding: 30px 0 0;}
+	.intro-box{padding: 30px;}
+	.intro-box h6{font-size: 20px;line-height: 30px;margin: 0 0 0 15px;}
+	.intro-box img{min-width: 40px;}
+
+	.why-choose-wrp,.service-wrp{padding: 60px 0 30px;}
+	.titlebar h2{font-size: 38px;margin: 0 0 35px;}
+	.service-box{padding: 30px;}
+	.service-box h3{font-size: 28px;line-height: 36px;}
+	.jurney-data p,.service-box p{font-size: 18px;line-height: 26px;}
+
+	.why-choose-wrp .col-md-3{width: 50%;}
+	.why-choose-box{padding: 30px;margin: 0 0 30px;height: calc(100% - 30px);}
+	.why-choose-box h3{font-size: 26px;min-height: 50px;}
+
+	.your-jurney-wrp{padding: 60px 0 30px;}
+	.jurney-box{padding: 30px 25px 0;height: auto;margin: 0 0 30px;}
+	.jurney-box h3{font-size: 24px;line-height: 32px;}
+	.jurney-box p{font-size: 16px;}
+
+	.testimonial-wrp{padding: 60px 0;}
+	.testimonial-slider .slick-list{margin: 0 -20px;}
+	.testimonial-slider .slick-slide{margin: 0 20px;}
+	.testimonial-box{padding: 40px;}
+	.testimonial-box h3{font-size: 28px;}
+	.testimonial-box p{font-size: 20px;line-height: 30px;}
+	.testimonial-slider .slick-dots{margin: 25px auto 0;}
+
+	.sponcers-wrp{padding: 30px 0;}
+	.sponcer-box img{width: 100%;}
+
+	.news-letter-box h3, .quicklinks h3{font-size: 24px;margin: 0 0 15px;}
+	.quicklinks li a{font-size: 14px;padding: 5px 0;}
+	.quicklinks{padding: 30px 15px;}
+	.news-letter-box{padding: 30px 15px;}
+	.news-block .form-control{padding: 20px 120px 20px 15px;}
+	.news-block button{padding: 10px 20px;top: 7px;}
+	.copyright{padding: 25px 0;}
+	.copyright p{font-size: 15px;}
+
+
+	.weight-loss-banner img{object-position:center;}
+	.weight-loss-banner .banner-center h1{font-size:38px;}
+	.weight-loss-banner .banner-center p{font-size: 18px;line-height: 28px;max-width: 60%;}
+	.btn-main{padding: 12px 30px;font-size: 16px;}
+	.weight-wrp{padding: 60px 0;}
+	.weight-loss-block h2{font-size: 30px;line-height: 40px;}
+	.weight-loss-block p{font-size: 16px;line-height: 26px;margin: 0 0 15px;}
+	.why-choose-hormones-wrp{padding: 60px 0;}
+	.hormones-ic{width: 85px;height: 85px;top: -40px;}
+	.hormones-ic img{height: 40px;}
+	.hormones-block{padding: 60px 15px 30px;}
+	.hormones-block h3{font-size: 24px;}
+	.hormones-block p{font-size: 16px;line-height: 26px;}
+
+
+	.methods-box{padding: 25px 15px 15px;}
+	.method-ic img{width: 40px;}
+	.method-ic{margin: 0 auto 15px;}
+	.womens-block-wrp{padding: 50px 0;margin: 0 0 30px;}
+	.methods-wrp{padding: 50px 0;}
+	.womens-block-wrp p{font-size: 16px;line-height: 24px;}
+	.methods-wrp p{font-size: 16px;line-height: 24px;margin: 0 0 35px;}
+	.methods-box h6{line-height: 26px;font-size: 16px;}
+	.methods-list{margin: 0 0 15px;}
+	.methods-benifits-block ul li{font-size: 16px;line-height: 24px;padding: 15px 25px 15px 55px}
+
+
+	.experience-healthcare-wrp{padding: 60px 0;}
+	.primary-care-banner .banner-center p{font-size: 15px;line-height: 22px;}
+	.experience-healthcare-title p{font-size: 16px;line-height:24px;}
+	.deserve-box .experience-img img{width: 50px;}
+	.deserve-box h3{font-size: 16px;min-height: auto;line-height: 24px;}
+	.experience-block{padding: 30px 15px;}
+	.advantages-wrp{padding: 50px 0 20px;}
+	.include-box img{min-width: 25px;width: 25px;margin: 5px 10px 0 0;}
+	.include-box p{font-size: 18px;line-height: 28px;}
+	.side-effects-wrp{padding: 50px 0 20px;}
+	.side-effects-box{padding: 30px 30px 50px;height: auto;margin: 0 0 30px;}
+	.side-effects-box h3{font-size: 30px;margin: 0 0 20px;}
+	.progress-status h6{font-size: 15px;bottom: -20px;}
+	.side-progress h4{font-size: 14px;}
+	.side-progress{margin: 0 0 40px;}
+	.faq-wrapper{padding: 50px 0;}
+	.faq-wrapper .accordion .accordion-item{padding: 15px;margin: 0 0 15px;}
+	.faq-wrapper .accordion .accordion-item .accordion-button{font-size: 18px;padding: 0 45px 0 0;line-height: 24px;}
+	.faq-wrapper .accordion .accordion-body{padding: 15px 35px 0 0;}
+	.faq-wrapper .accordion .accordion-body p{font-size: 16px;line-height: 25px;}
+
+
+	.experience-block h3{font-size: 26px;margin: 0 0 15px;}
+	.experience-block p{font-size: 15px;line-height: 24px;}
+	.why-choose-treatment-wrp{padding: 50px 0;}
+	.treatment-row{padding: 25px;}
+	.treatment-data{padding:0px 0 0;}
+	.why-now-wrp{padding: 50px 0 0;}
+	.choose-title h3{font-size: 22px;}
+	.choose-title p{font-size: 15px;}
+	.choose-treatment-box a{font-size: 14px;}
+	.choose-treatment-box{min-height: 200px;padding: 15px;}
+	.treatment-data ul li{margin: 0 0 20px;}
+
+
+	.peptides-box h3{font-size: 24px;}
+	.peptides-box p{font-size: 16px;line-height: 24px;}
+	.peptides-box{padding: 25px;}
+	.performance-box{padding: 30px 15px;}
+	.performance-box img{width: 45px;}
+	.performance-box h3{font-size: 20px;line-height: 26px;}
+	.performance-box p{font-size: 14px;line-height: 22px;}
+	.therapy-box h4{width: 85px;height: 85px;line-height: 85px;font-size: 22px;}
+	.therapy-box{padding: 60px 15px 30px;}
+	.therapy-box h3{font-size: 22px;}
+	.therapy-box p{font-size: 16px;line-height: 24px;}
+
+
+	.life-guidence-wrp,.everything-wrp{padding: 60px 0;}
+	.everything-data{padding: 0 15px 0px 0;}
+	.everything-data h3{font-size: 28px;line-height: 36px;}
+	.everything-data p{font-size:15px;line-height: 22px;}
+	.jurney-box{height: 100%;margin: 0;}
+
+	.blog-wrpper{padding: 50px 0 10px;}
+	.blog-wrpper .row{margin: 0 -15px;}
+	.blog-wrpper .row .col-md-4{padding: 0 15px;width: 33.33%;}
+	.blog-data{padding: 25px 15px;}
+	.blog-data h3{font-size: 22px;margin: 0 0 15px;}
+	.blog-data p{font-size: 16px;line-height: 26px;}
+}
+
+@media(min-width:992px) and (max-width:1024px){
+	.container{max-width: 960px;}
+	header .container{max-width: 100%;}
+	.notebox p{font-size: 12px;margin: 0 5px;}
+	.notebox img{width: 15px;}
+	.toplinks ul li a{padding: 10px 0;font-size: 12px;}
+	.toplinks ul li a.patient-btn{padding: 10px 20px;}
+	header{padding: 10px 0;}
+	.navbar-brand img{height: 30px;}
+	.navbar-light .navbar-nav li{margin-right: 10px;}
+	.navbar-light .navbar-nav li .dropdown-menu li a,.navbar-light .navbar-nav .nav-link{font-size: 12px;}
+
+	.hero-banner img{height: 80vh;object-fit: cover;object-position: center;}
+	.banner-center h1{font-size: 42px;line-height:52px;}
+
+	.intro-wrp{padding: 60px 0;}
+	.intro-wrp h2{font-size: 38px;margin: 0 auto 35px;}
+	.intro-wrp p{font-size: 18px;line-height: 28px;}
+	.intro-row{padding: 30px 0 0;}
+	.intro-box{padding: 30px;}
+	.intro-box h6{font-size: 20px;line-height: 30px;margin: 0 0 0 15px;}
+	.intro-box img{min-width: 40px;}
+
+	.why-choose-wrp,.service-wrp{padding: 60px 0 30px;}
+	.titlebar h2{font-size: 38px;margin: 0 0 35px;}
+	.service-box{padding: 30px;}
+	.service-box h3{font-size: 28px;line-height: 36px;}
+	.jurney-data p,.service-box p{font-size: 18px;line-height: 26px;}
+
+	.why-choose-wrp .col-md-3{width: 50%;}
+	.why-choose-box{padding: 30px;margin: 0 0 30px;height: calc(100% - 30px);}
+	.why-choose-box h3{font-size: 26px;min-height: 50px;}
+
+	.your-jurney-wrp{padding: 60px 0 30px;}
+	.jurney-box{padding: 30px 25px 0;height: auto;margin: 0 0 30px;}
+	.jurney-box h3{font-size: 24px;line-height: 32px;}
+	.jurney-box p{font-size: 16px;}
+
+	.testimonial-wrp{padding: 60px 0;}
+	.testimonial-slider .slick-list{margin: 0 -20px;}
+	.testimonial-slider .slick-slide{margin: 0 20px;}
+	.testimonial-box{padding: 40px;}
+	.testimonial-box h3{font-size: 28px;}
+	.testimonial-box p{font-size: 20px;line-height: 30px;}
+	.testimonial-slider .slick-dots{margin: 25px auto 0;}
+
+	.sponcers-wrp{padding: 30px 0;}
+	.sponcer-box img{width: 100%;}
+
+	.news-letter-box h3, .quicklinks h3{font-size: 24px;margin: 0 0 15px;}
+	.quicklinks li a{font-size: 14px;padding: 5px 0;}
+	.quicklinks{padding: 30px 15px;}
+	.news-letter-box{padding: 30px 15px;}
+	.news-block .form-control{padding: 20px 120px 20px 15px;}
+	.news-block button{padding: 10px 20px;top: 7px;}
+	.copyright{padding: 25px 0;}
+	.copyright p{font-size: 15px;}
+
+
+	.weight-loss-banner img{object-position:center;}
+	.weight-loss-banner .banner-center h1{font-size:32px;}
+	.weight-loss-banner .banner-center p{font-size: 18px;line-height: 28px;max-width: 60%;}
+	.btn-main{padding: 12px 30px;font-size: 16px;}
+	.weight-wrp{padding: 60px 0;}
+	.weight-loss-block h2{font-size: 26px;line-height: 34px;}
+	.weight-loss-block p{font-size: 14px;line-height: 22px;margin: 0 0 15px;}
+	.why-choose-hormones-wrp{padding: 60px 0;}
+	.hormones-ic{width: 85px;height: 85px;top: -40px;}
+	.hormones-ic img{height: 40px;}
+	.hormones-block{padding: 60px 15px 30px;}
+	.hormones-block h3{font-size: 24px;}
+	.hormones-block p{font-size: 16px;line-height: 26px;}
+
+
+	.methods-list ul li{width: 20%;}
+	.methods-box{padding: 35px;height: calc(100% - 30px);margin: 0 0 30px;}
+	.method-ic img{width: 50px;}
+	.womens-block-wrp{padding: 40px 0;margin: 0 0 25px;}
+	.methods-wrp{padding: 40px 0;}
+	.womens-block-wrp p{font-size: 16px;line-height: 24px;}
+	.methods-wrp p{font-size: 16px;line-height: 24px;margin: 0 0 35px;}
+	.methods-box h6{line-height: 26px;font-size: 16px;}
+	.methods-list{margin: 0 0 15px;}
+	.methods-benifits-block ul li{font-size: 16px;line-height: 24px;padding: 15px 25px 15px 55px}
+
+
+	.experience-healthcare-wrp{padding: 60px 0;}
+	.primary-care-banner .banner-center p{font-size: 15px;line-height: 22px;}
+	.experience-healthcare-title p{font-size: 16px;line-height:24px;}
+	.deserve-box .experience-img img{width: 50px;}
+	.deserve-box h3{font-size: 16px;min-height: auto;line-height: 24px;}
+	.experience-block{padding: 30px 15px;}
+	.advantages-wrp{padding: 50px 0 20px;}
+	.include-box img{min-width: 25px;width: 25px;margin: 5px 10px 0 0;}
+	.include-box p{font-size: 18px;line-height: 28px;}
+	.side-effects-wrp{padding: 50px 0 20px;}
+	.side-effects-box{padding: 30px 30px 50px;height: auto;margin: 0 0 30px;}
+	.side-effects-box h3{font-size: 30px;margin: 0 0 20px;}
+	.progress-status h6{font-size: 15px;bottom: -20px;}
+	.side-progress h4{font-size: 14px;}
+	.side-progress{margin: 0 0 40px;}
+	.faq-wrapper{padding: 50px 0;}
+	.faq-wrapper .accordion .accordion-item{padding: 15px;margin: 0 0 15px;}
+	.faq-wrapper .accordion .accordion-item .accordion-button{font-size: 18px;padding: 0 45px 0 0;line-height: 24px;}
+	.faq-wrapper .accordion .accordion-body{padding: 15px 35px 0 0;}
+	.faq-wrapper .accordion .accordion-body p{font-size: 16px;line-height: 25px;}
+
+	.why-otp-wrp{padding: 60px 0;}
+	.why-otp-wrp h6{font-size: 15px;line-height: 22px;margin: 0 0 20px;}
+
+
+	.experience-block h3{font-size: 26px;margin: 0 0 15px;}
+	.experience-block p{font-size: 15px;line-height: 24px;}
+	.why-choose-treatment-wrp{padding: 50px 0;}
+	.treatment-row{padding: 25px;}
+	.treatment-data{padding:0px 0 0;}
+	.why-now-wrp{padding: 50px 0 0;}
+	.choose-title h3{font-size: 22px;}
+	.choose-title p{font-size: 15px;}
+	.choose-treatment-box a{font-size: 14px;}
+	.choose-treatment-box{min-height: 200px;padding: 15px;}
+	.treatment-data ul li{margin: 0 0 20px;}
+
+
+	.peptides-box h3{font-size: 24px;}
+	.peptides-box p{font-size: 16px;line-height: 24px;}
+	.peptides-box{padding: 25px;}
+	.performance-box{padding: 30px 15px;}
+	.performance-box img{width: 45px;}
+	.performance-box h3{font-size: 20px;line-height: 26px;}
+	.performance-box p{font-size: 14px;line-height: 22px;}
+	.therapy-box h4{width: 85px;height: 85px;line-height: 85px;font-size: 22px;}
+	.therapy-box{padding: 60px 15px 30px;}
+	.therapy-box h3{font-size: 22px;}
+	.therapy-box p{font-size: 16px;line-height: 24px;}
+
+
+	.life-guidence-wrp,.everything-wrp{padding: 50px 0;}
+	.everything-data{padding: 0 15px 0px 0;}
+	.everything-data h3{font-size: 28px;line-height: 36px;}
+	.everything-data p{font-size:15px;line-height: 22px;}
+	.jurney-box{height: 100%;margin: 0;}
+
+
+	.control-health-wrp{padding: 50px 15px;}
+	.advantages-box{padding: 25px;}
+	.advantages-box p{font-size: 18px;}
+	.control-health-block{padding: 25px;}
+	.health-data{padding: 30px 0 0;}
+	.health-data h3{font-size: 28px;line-height: 38px;}
+	.health-data p{font-size: 16px;line-height: 24px;}
+
+
+	.blog-wrpper{padding: 50px 0 10px;}
+	.blog-wrpper .row{margin: 0 -15px;}
+	.blog-wrpper .row .col-md-4{padding: 0 15px;width: 33.33%;}
+	.blog-data{padding: 25px 15px;}
+	.blog-data h3{font-size: 22px;margin: 0 0 15px;}
+	.blog-data p{font-size: 16px;line-height: 26px;}
+}
+
+@media(min-width:768px) and (max-width:991px){
+	.notebox p{font-size: 14px;margin: 0 5px;}
+	.notebox img{width: 15px;}
+
+	.hero-banner img{height: 70vh;object-fit: cover;object-position: center;}
+	.banner-center h1{font-size: 34px;line-height: 44px;}
+
+	.intro-wrp{padding: 50px 0;}
+	.intro-wrp h2{font-size: 26px;margin: 0 auto 25px;}
+	.intro-wrp p{font-size: 16px;line-height: 24px;}
+	.intro-row{padding: 30px 0 0;}
+	.intro-box{padding: 30px;}
+	.intro-box h6{font-size: 20px;line-height: 30px;margin: 0 0 0 15px;}
+	.intro-box img{min-width: 40px;}
+
+	.why-choose-wrp,.service-wrp{padding: 50px 0 20px;}
+	.titlebar h2{font-size: 30px;margin: 0 0 30px;}
+	.service-box{padding: 30px;}
+	.service-box h3{font-size: 24px;line-height: 34px;}
+	.jurney-data p,.service-box p{font-size: 16px;line-height: 24px;}
+
+	.why-choose-wrp .col-md-3{width: 50%;}
+	.why-choose-box{padding: 30px;margin: 0 0 30px;height: calc(100% - 30px);}
+	.why-choose-box h3{font-size: 22px;min-height: 40px;}
+
+	.your-jurney-wrp{padding: 50px 0 20px;}
+	.jurney-box{padding: 30px 15px 0;height: auto;margin: 0 0 30px;}
+	.jurney-box h3{font-size: 20px;line-height: 28px;}
+	.jurney-box p{font-size: 14px;min-height: 150px;}
+	.jurney-box h4{font-size: 75px;}
+
+	.testimonial-wrp{padding: 50px 0;}
+	.testimonial-slider .slick-list{margin: 0 -15px;}
+	.testimonial-slider .slick-slide{margin: 0 15px;}
+	.testimonial-box{padding: 30px;}
+	.testimonial-box h3{font-size: 28px;}
+	.testimonial-box p{font-size: 18px;line-height: 28px;}
+	.testimonial-slider .slick-dots{margin: 25px auto 0;}
+
+	.sponcers-wrp{padding: 30px 0;}
+	.sponcer-box img{width: 100%;}
+
+	footer .col-md-4,
+	footer .col-md-8{width: 100%;}
+	footer .quicklink-row .col-md-4{width: 33.33%;}
+	.news-letter-box h3, .quicklinks h3{font-size: 24px;margin: 0 0 15px;}
+	.quicklinks li a{font-size: 14px;padding: 5px 0;}
+	.quicklinks{border: none;padding: 30px 15px;}
+	footer .container{border: none;}
+	.news-letter-box{padding: 30px 15px;}
+	.news-block .form-control{padding: 20px 120px 20px 30px;}
+	.news-block button{padding: 10px 20px;top: 7px;}
+	.copyright{padding: 25px 0;}
+	.copyright p{font-size: 14px;}
+
+	.navbar-collapse{width: 300px !important;}
+	.weight-loss-banner img{object-position:center;}
+	.weight-loss-banner .banner-center h1{font-size: 26px;}
+	.weight-loss-banner .banner-center p{font-size: 16px;line-height: 20px;max-width: 70%;}
+	.btn-main{padding: 12px 30px;font-size: 14px;}
+	.weight-wrp{padding: 50px 0;}
+	.weight-loss-block h2{font-size: 26px;line-height: 34px;}
+	.weight-loss-block p{font-size: 14px;line-height: 22px;margin: 0 0 15px;}
+	.why-choose-hormones-wrp{padding: 50px 0;}
+	.hormones-ic{width: 85px;height: 85px;top: -40px;}
+	.hormones-ic img{height: 40px;}
+	.hormones-block{padding: 60px 15px 30px;}
+	.hormones-block h3{font-size: 20px;}
+	.hormones-block p{font-size: 14px;line-height: 22px;}
+
+	.methods-list ul li{width: 33.33%;}
+	.methods-box{padding: 35px;height: calc(100% - 30px);margin: 0 0 30px;}
+	.method-ic img{width: 50px;}
+	.womens-block-wrp{padding: 40px 0;margin: 0 0 25px;}
+	.methods-wrp{padding: 40px 0;}
+	.womens-block-wrp p{font-size: 16px;line-height: 24px;}
+	.methods-wrp p{font-size: 16px;line-height: 24px;margin: 0 0 35px;}
+	.methods-box h6{line-height: 26px;}
+	.methods-list{margin: 0 0 15px;}
+	.methods-benifits-block ul li{font-size: 16px;line-height: 24px;padding: 15px 25px 15px 55px}
+
+
+	.experience-healthcare-wrp{padding: 50px 0;}
+	.primary-care-banner .banner-center p{font-size: 15px;line-height: 22px;}
+	.experience-healthcare-title p{font-size: 16px;line-height:24px;}
+	.deserve-box .experience-img img{width: 50px;}
+	.deserve-box h3{font-size: 16px;min-height: auto;line-height: 24px;}
+	.experience-block{padding: 30px 15px;}
+	.advantages-wrp{padding: 50px 0;}
+	.include-box img{min-width: 25px;width: 25px;margin: 5px 10px 0 0;}
+	.include-box p{font-size: 18px;line-height: 28px;}
+	.side-effects-wrp{padding: 50px 0 20px;}
+	.side-effects-box{padding: 30px 30px 50px;height: auto;margin: 0 0 30px;}
+	.side-effects-box h3{font-size: 30px;margin: 0 0 20px;}
+	.progress-status h6{font-size: 15px;bottom: -20px;}
+	.side-progress h4{font-size: 14px;}
+	.side-progress{margin: 0 0 40px;}
+	.faq-wrapper{padding: 50px 0;}
+	.faq-wrapper .accordion .accordion-item{padding: 15px;}
+	.faq-wrapper .accordion .accordion-item .accordion-button{font-size: 16px;padding: 0 45px 0 0;line-height: 24px;}
+	.faq-wrapper .accordion .accordion-body{padding: 15px 35px 0 0;}
+	.faq-wrapper .accordion .accordion-body p{font-size: 15px;line-height: 22px;}
+
+
+	.why-otp-wrp{padding: 50px 0;}
+	.why-otp-wrp h6{font-size: 15px;line-height: 22px;margin: 0 0 20px;}
+
+
+	.experience-block h3{font-size: 26px;margin: 0 0 15px;}
+	.experience-block p{font-size: 15px;line-height: 24px;}
+	.why-choose-treatment-wrp{padding: 50px 0;}
+	.treatment-row{padding: 25px;}
+	.treatment-data{padding:0px 0 0;}
+	.why-now-wrp{padding: 50px 0 0;}
+	.choose-title h3{font-size: 22px;}
+	.choose-title p{font-size: 15px;}
+	.choose-treatment-box a{font-size: 14px;}
+	.choose-treatment-box{min-height: 200px;padding: 15px;}
+	.treatment-data ul li{margin: 0 0 15px;font-size: 16px;line-height: 22px;padding: 15px 25px 15px 50px}
+
+
+	.peptides-box h3{font-size: 24px;}
+	.peptides-box p{font-size: 16px;line-height: 24px;}
+	.peptides-box{padding: 25px;}
+	.performance-box{padding: 30px 15px;}
+	.performance-box img{width: 45px;}
+	.performance-box h3{font-size: 20px;line-height: 26px;}
+	.performance-box p{font-size: 14px;line-height: 22px;}
+	.therapy-box h4{width: 85px;height: 85px;line-height: 85px;font-size: 22px;}
+	.therapy-box{padding: 60px 15px 30px;}
+	.therapy-box h3{font-size: 22px;}
+	.therapy-box p{font-size: 16px;line-height: 24px;}
+
+
+	.life-guidence-wrp,.everything-wrp{padding: 50px 0;}
+	.everything-data{padding: 0 15px 0px 0;}
+	.everything-data h3{font-size: 28px;line-height: 36px;}
+	.everything-data p{font-size:15px;line-height: 22px;}
+
+
+	.control-health-wrp{padding: 50px 15px;}
+	.advantages-box{padding: 25px;}
+	.advantages-box p{font-size: 18px;}
+	.control-health-block{padding: 25px;}
+	.health-data{padding: 30px 0 0;}
+	.health-data h3{font-size: 28px;line-height: 38px;}
+	.health-data p{font-size: 16px;line-height: 24px;}
+
+
+	.blog-wrpper{padding: 50px 0 10px;}
+	.blog-wrpper .row{margin: 0 -15px;}
+	.blog-wrpper .row .col-md-4{padding: 0 15px;width: 50%;}
+	.blog-data{padding: 25px;}
+	.blog-data h3{font-size: 22px;margin: 0 0 15px;}
+	.blog-data p{font-size: 16px;line-height: 26px;}
+	.backbtn{font-size: 16px;margin: 0 0 15px;}
+	.blog-details-wrp h2{font-size: 28px;line-height: 38px;}
+	.blog-details-wrp p{font-size: 15px;line-height: 22px;}
+	.blog-details-wrp ul li{font-size: 15px;padding: 3x 0 3px 15px;}
+	.blog-details-wrp h3{font-size: 24px;}
+	.blog-details-wrp h4{font-size: 20px;margin: 0 0 15px;}
+}
+
+@media(min-width:576px) and (max-width:767px){
+	
+}
+
+@media(min-width:448px) and (max-width:575px){
+	
+}
+
+@media(max-width:767px){
+	.container{max-width: 520px;}
+	.notebox{display: none;}
+
+	.hero-banner img{height: 80vh;object-fit: cover;object-position: center;}
+	.banner-center h1{font-size: 26px;line-height: 34px;}
+
+	.intro-wrp{padding: 50px 0;}
+	.intro-wrp h2{font-size: 26px;margin: 0 auto 25px;}
+	.intro-wrp p{font-size: 16px;line-height: 24px;}
+	.intro-row{padding: 30px 0 0;}
+	.intro-box{padding: 30px;margin: 0 0 15px;}
+	.intro-box h6{font-size: 20px;line-height: 30px;}
+	.intro-box img{min-width: 40px;}
+	.intro-box:last-child{margin: 0;}
+
+	.why-choose-wrp,.service-wrp{padding: 50px 0 20px;}
+	.titlebar h2{font-size: 26px;margin: 0 0 30px;}
+	.service-box{padding: 30px;}
+	.service-box h3{font-size: 24px;}
+	.jurney-data p,.service-box p{font-size: 16px;line-height: 24px;}
+
+	.why-choose-box{padding: 30px;margin: 0 0 30px;height: auto;}
+	.why-choose-box h3{font-size: 22px;min-height: 40px;}
+
+	.your-jurney-wrp{padding: 50px 0 20px;}
+	.jurney-box{padding: 30px 30px 0;height: auto;margin: 0 0 30px;}
+	.jurney-box h3{font-size: 24px;line-height: 32px;}
+	.jurney-box p{font-size: 16px;min-height: auto;}
+	.jurney-box h4{font-size: 75px;}
+
+	.testimonial-wrp{padding: 50px 15px;}
+	.testimonial-slider .slick-list{margin: 0 -15px;}
+	.testimonial-slider .slick-slide{margin: 0 15px;}
+	.testimonial-box{padding: 30px 15px;}
+	.testimonial-box h3{font-size: 24px;}
+	.testimonial-box p{font-size: 16px;line-height: 24px;}
+	.testimonial-slider .slick-dots{margin: 25px auto 0;}
+
+	.sponcers-wrp{padding: 30px 0;}
+	.sponcer-box img{width: 100%;}
+
+	footer .container{border: none;}
+	.quicklinks{padding: 30px 15px;border: none;border-bottom: 1px solid #454545;}
+	.news-letter-box h3, .quicklinks h3{font-size: 24px;margin: 0 0 15px;}
+	.quicklinks li a{font-size: 14px;padding: 5px 0;}
+	.news-letter-box{padding: 30px 15px;}
+	.news-block .form-control{padding: 20px 120px 20px 30px;}
+	.news-block button{padding: 10px 20px;}
+	.copyright{padding: 15px 0;}
+	.copyright p{font-size: 14px;}
+
+	.weight-loss-banner:before{position: absolute;content: '';background-color: #fff;width: 100%;height: 100%;top: 0;left: 0;opacity: 0.15;}
+	.weight-loss-banner img{height: 100vh;object-position: right;}
+	.weight-loss-banner .banner-center h1{font-size: 26px;}
+	.weight-loss-banner .banner-center p{font-size: 14px;line-height: 20px;}
+	.btn-main{padding: 12px 30px;font-size: 14px;}
+	.weight-wrp{padding: 50px 0;}
+	.weight-loss-block h2{font-size: 26px;line-height: 34px;}
+	.weight-loss-block p{font-size: 14px;line-height: 22px;margin: 0 0 15px;}
+	.why-choose-hormones-wrp{padding: 50px 0 0;}
+	.hormones-ic{width: 85px;height: 85px;top: -40px;}
+	.hormones-ic img{height: 40px;}
+	.hormones-block{padding: 60px 15px 30px;margin: 0 0 60px;height: auto;}
+	.hormones-block h3{font-size: 24px;}
+	.hormones-block p{font-size: 14px;line-height: 22px;}
+
+
+	.methods-list ul li{width: 50%;}
+	.methods-box{padding: 35px;height: calc(100% - 30px);margin: 0 0 30px;}
+	.method-ic img{width: 40px;}
+	.womens-block-wrp{padding: 40px 0;margin: 0 0 25px;}
+	.methods-wrp{padding: 40px 0;}
+	.womens-block-wrp p{font-size: 16px;line-height: 24px;}
+	.methods-wrp p{font-size: 16px;line-height: 24px;margin: 0 0 35px;}
+	.methods-list{margin: 0 0 15px;}
+	.methods-benifits-block ul li{font-size: 16px;line-height: 24px;padding: 15px 25px 15px 55px}
+
+
+	.experience-healthcare-wrp{padding: 50px 0 20px;}
+	.primary-care-banner .banner-center p{font-size: 15px;line-height: 22px;}
+	.experience-healthcare-title p{font-size: 16px;line-height:24px;}
+	.deserve-box .experience-img img{width: 70px;}
+	.deserve-box h3{font-size: 20px;min-height: auto;line-height: 30px;}
+	.experience-block{padding: 30px;height: auto;margin: 0 0 30px;}
+	.advantages-wrp{padding: 50px 0px;}
+	.include-box img{min-width: 25px;width: 25px;margin: 5px 10px 0 0;}
+	.include-box p{font-size: 18px;line-height: 28px;}
+	.side-effects-wrp{padding: 50px 0 20px;}
+	.side-effects-box{padding: 30px 30px 50px;height: auto;margin: 0 0 30px;}
+	.side-effects-box h3{font-size: 30px;margin: 0 0 20px;}
+	.progress-status h6{font-size: 15px;bottom: -20px;}
+	.side-progress h4{font-size: 14px;}
+	.side-progress{margin: 0 0 40px;}
+	.faq-wrapper{padding: 50px 0;}
+	.faq-wrapper .accordion .accordion-item{padding: 15px;}
+	.faq-wrapper .accordion .accordion-item .accordion-button{font-size: 16px;padding: 0 45px 0 0;line-height: 24px;}
+	.faq-wrapper .accordion .accordion-body{padding: 15px 35px 0 0;}
+	.faq-wrapper .accordion .accordion-body p{font-size: 15px;line-height: 22px;}
+
+
+	.why-otp-wrp{padding: 50px 0;}
+	.why-otp-wrp h6{font-size: 15px;line-height: 22px;margin: 0 0 20px;}
+
+
+	.experience-block h3{font-size: 26px;margin: 0 0 15px;}
+	.experience-block p{font-size: 15px;line-height: 24px;}
+	.why-choose-treatment-wrp{padding: 50px 0;}
+	.treatment-row{padding: 25px;}
+	.treatment-data{padding: 30px 0 0;}
+	.why-now-wrp{padding: 50px 0 0;}
+	.choose-title h3{font-size: 26px;}
+	.choose-title p{font-size: 15px;}
+	.choose-treatment-box a{font-size: 14px;}
+	.choose-treatment-box{min-height: 200px;}
+
+
+	.peptides-box h3{font-size: 28px;}
+	.peptides-box p{font-size: 18px;}
+	.performance-box{height: auto;margin: 0 0 30px;}
+
+
+	.life-guidence-wrp,.everything-wrp{padding: 50px 0;}
+	.everything-data{padding: 0 0 30px;}
+	.everything-data h3{font-size: 28px;text-align: center;line-height: 36px;}
+	.everything-data p{font-size:15px;text-align: center;line-height: 22px;}
+
+
+	.control-health-wrp{padding: 50px 15px;}
+	.advantages-box{padding: 25px;}
+	.advantages-box p{font-size: 18px;}
+	.control-health-block{padding: 25px;}
+	.health-data{padding: 30px 0 0;}
+	.health-data h3{font-size: 28px;line-height: 38px;}
+	.health-data p{font-size: 16px;line-height: 24px;}
+	.mobile-image {display:block;}
+	.desktop-image{display:none}
+
+	.blog-wrpper{padding: 50px 0 10px;}
+	.blog-wrpper .row{margin: 0 -15px;}
+	.blog-wrpper .row .col-md-4{padding: 0 15px;}
+	.blog-data{padding: 25px;}
+	.blog-data h3{font-size: 22px;margin: 0 0 15px;}
+	.blog-data p{font-size: 16px;line-height: 26px;}
+	.backbtn{font-size: 16px;margin: 0 0 15px;}
+	.blog-details-wrp h2{font-size: 28px;line-height: 38px;}
+	.blog-details-wrp p{font-size: 15px;line-height: 22px;}
+	.blog-details-wrp ul li{font-size: 15px;padding: 3x 0 3px 15px;}
+	.blog-details-wrp h3{font-size: 24px;}
+	.blog-details-wrp h4{font-size: 20px;margin: 0 0 15px;}
+}
+
+@media(max-width:991px){	
+	.toplinks ul li{margin-right: 15px;}
+	.toplinks ul li a{font-size: 12px;padding: 10px 0;}
+	.toplinks ul li a.patient-btn{padding: 10px 20px;}
+	.navbar-brand img{height: 45px;}
+
+	.navbar-collapse{
+		position: fixed;
+		left: -100%;
+		top: 0;
+		min-height: 100vh;
+		background: #EEE9F1;
+		height: 100%;
+		width: 100%;
+		padding:130px 0 0;
+		-webkit-transition: all 0.3s linear;
+		transition: all 0.3s linear;
+	}
+	.navbar-collapse.collapse.show{
+		left: 0;
+	}
+	.navbar-light .navbar-nav{
+		margin: 0 auto;
+		background: transparent;
+		padding: 30px 15px;
+	}
+	.navbar-light .navbar-nav .nav-link{font-size: 15px;display: flex;align-items: center;border-bottom: 1px solid #e0e0e0;}
+	.navbar-light .navbar-nav .nav-link i{margin-left: auto;}
+	.navbar-light .navbar-nav .nav-link:after{display: none;}
+	.navbar-light .navbar-nav li{margin: 0;}
+	.navbar-light .navbar-nav li:last-child a{border-bottom: none;}
+	.navbar-light .navbar-nav li .dropdown-menu li a{font-size: 13px;}
+	.nav-row{
+		padding: 15px 30px;
+		overflow: auto;
+		height: calc(100vh - 50px);
+	}
+	.topbar{
+		background: #fff;
+		position: relative;
+		z-index: 121;
+	}
+	.navbar-brand{
+		position: relative;
+		z-index: 121;
+	}
+	.navbar-toggler{
+		position: relative;
+		z-index: 121;
+	}
+	body.add-fix{
+		overflow: hidden;
+	}
+}

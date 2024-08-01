@@ -1,0 +1,1722 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* ***** Common Css **** */
+:root {
+    scroll-behavior: initial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+a,button{
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gilroy';
+    font-size: 10px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+
+.main-wrpper {
+    height: 100%;
+    width: 100%;
+}
+.container{max-width: 1640px;}
+/* ***** End Common Css **** */
+
+/* **** Header **** */
+.topbar{
+    border-bottom: 1px solid #DFDFDF;
+}
+.topbar .row{
+    align-items: center;
+}
+.toplinks ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.toplinks ul li{
+    margin:0 20px 0 0;
+}
+.toplinks ul li:last-child{
+    margin: 0;
+}
+.toplinks ul li a{
+    display: block;
+    padding: 5px 0;
+    font-size:14px;
+    font-weight: 500;
+    color: #1A1A1A;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.toplinks ul li a.patient-btn{
+    background: #EEE9F1;
+    padding: 10px 5px;
+    color: #0C202D;
+}
+.toplinks ul li a.patient-btn:hover{
+    background: #0C202D;
+    color: #fff;
+}
+.notebox{
+    display: flex;
+}
+.notebox p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #1A1A1A;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+header {
+    position: relative;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding:5px 0;
+    z-index: 120;
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+}
+.navbar .container .navbar-brand,
+.navbar .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+.navbar-brand {
+    float: none;
+    height: auto;
+    padding: 0;
+}
+.navbar-brand img {
+    max-width: 100%;
+    height: 40px;
+}
+.navbar {
+    background: transparent;
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 120;
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+}
+.navbar-light .navbar-nav {
+    margin-left: auto;
+}
+.navbar-light .navbar-nav li {
+    margin-right: 20px;
+}
+.navbar-light .navbar-nav li:last-child {
+    margin-right: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0px;
+    color: #1A1A1A;
+    font-size: 13px;
+    font-weight: 450;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+}
+.navbar-light .navbar-nav .nav-link:after{
+    position: absolute;
+    content: '';
+    background: #504E73;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+}
+.navbar-light .navbar-nav .nav-link i{
+    margin-left: 5px;
+}
+.navbar-light .navbar-nav .nav-link.active:after,
+.navbar-light .navbar-nav .nav-link:hover:after{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+
+.navbar-light .navbar-nav li .dropdown-menu{
+    padding: 10px;
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid #DFDFDF;
+    box-shadow: none;
+}
+.navbar-light .navbar-nav li .dropdown-menu li{
+    margin: 0;
+}
+.navbar-light .navbar-nav li .dropdown-menu li a{
+    color: #1A1A1A;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav li .dropdown-menu li a:hover{
+    color: #515071;
+    background: transparent;
+}
+
+.navbar .navbar-nav li a:focus,
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li a:hover {
+    color: #515071;
+}
+.navbar .navbar-nav .active a,
+.navbar .navbar-nav .active a:focus,
+.navbar .navbar-nav .active a:hover {
+    color: #515071;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #515071;
+}
+/* **** End Header **** */
+
+
+/* **** toggler **** */
+.navbar-light .navbar-toggler {background-color: transparent;border-radius: 0;outline: none;box-shadow: none;border: none;height: 40px;width: auto;padding: 0;}
+.navbar-light .navbar-toggler:focus {box-shadow: none;outline: none; }
+.navbar-light .navbar-toggler .navbar-toggler-icon {background-image: unset;}
+.navbar-toggler:active, .navbar-toggler:focus { outline: none; }
+.navbar-light .navbar-toggler-icon {width: 24px;height: 18px;background-image: none;position: relative;border-bottom: 2px solid #515071;transition: all 300ms linear;}
+.navbar-light .navbar-toggler-icon:after,
+.navbar-light .navbar-toggler-icon:before {width: 24px;position: absolute;height: 2px;background-color: #515071;top: 0;left: 0;content: "";z-index: 2;transition: all 300ms linear;}
+.navbar-light .navbar-toggler-icon:after {top: 8px;}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {transform: rotate(45deg);}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {transform: translateY(8px) rotate(-45deg);}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {border-color: transparent;}
+/* **** End toggler **** */
+
+/* **** Home Page **** */
+.hero-banner{
+    position: relative;
+}
+.hero-banner img{
+    width: 100%;
+}
+.banner-center{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.banner-center h1{
+    font-size: 50px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 90px;
+    margin: 0;
+    max-width: 1180px;
+}
+.scroll-wrp{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+.scroll-wrp a{
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+.scroll-wrp a i{
+    margin: 0 0 0 5px;
+}
+.scroll-wrp a:hover{
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.intro-wrp{
+    padding: 100px 0;
+}
+.intro-wrp h2{
+    font-size: 30px;
+    font-weight: normal;
+    color: #515071;
+    text-align: center;
+    margin: 0 auto 45px;
+}
+.intro-wrp p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #1A1A1A;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 auto 25px;
+    max-width: 850px;
+}
+.intro-row{
+    padding: 55px 0 0;
+}
+.intro-box{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #D0D0D0;
+}
+.intro-box h6{
+    font-size: 18px;
+    font-weight: normal;
+    color: #1A1A1A;
+    margin: 0 0 0 25px;
+}
+
+.service-wrp{
+    padding: 100px 0 70px;
+    background: #F8F0FC;
+}
+.titlebar h2{
+    font-size: 30px;
+    font-weight: normal;
+    color: #515071;
+    margin: 0 0 45px;
+}
+.service-box{
+    display: flex;
+    flex-flow: column;
+    background: #fff;
+    height: calc(100% - 30px);
+    margin: 0 0 30px;
+    padding: 35px;
+    border: 1px solid #D0D0D0;
+}
+.service-box h3{
+    font-size: 23px;
+    font-weight: normal;
+    color: #000000;
+    margin: 0 0 15px;
+}
+.service-box p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #1A1A1A;
+    text-align: left;
+    line-height: 25px;
+    margin: 0;
+}
+
+
+.why-choose-wrp{
+    padding: 100px 0 70px;
+}
+.why-choose-box{
+    border: 1px solid #DFDFDF;
+    display: flex;
+    flex-flow: column;  
+    height: calc(100% - 30px);
+    margin: 0 0 30px;
+    padding: 35px;
+}
+.why-choose-box h3{
+    font-size: 23px;
+    font-weight: normal;
+    color: #000;
+    margin: 0 0 15px;
+    min-height: 40px;
+}
+.why-choose-box p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;  
+    text-align: left;
+    color: #1A1A1A;
+}
+
+.your-jurney-wrp{
+    padding: 100px 0;
+    background: #F8F0FC;
+}
+.your-jurney-wrp h2{
+margin: 30px;
+    text-align: center;
+}
+.jurney-data{
+    max-width:700px;
+    margin: 0 0 45px ;
+}
+.jurney-data p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 25px;
+    align-items: left;
+    text-align: left;
+    margin: 25px;
+}
+.jurney-box{
+    display: flex;
+    flex-flow: column;
+    padding: 45px 35px 0px;
+    background: #fff;
+    height: 100%;
+    border: 1px solid #D0D0D0;
+}
+.jurney-box h3{
+    font-size: 23px;
+    line-height: 35px;
+    font-weight: normal;
+    text-align: left;
+    color: #1A1A1A;
+    margin: 0 0 15px;
+}
+.jurney-box p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #1A1A1A;
+    max-width: 300px;
+    text-align: left;
+    margin: 0 0 15px;
+    min-height: 130px;
+}
+.jurney-box h4{
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 2px #BABABA, 0 0 2px #BABABA;
+    margin: 0;
+    text-align: right;
+}
+
+
+.testimonial-wrp{
+    padding: 50px 300px;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-wrp .titlebar h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.testimonial-slider .slick-slide {
+    margin: 0 25px;
+}
+.testimonial-slider .slick-list {
+    margin: 0 -25px;
+}
+.testimonial-box{
+    padding: 35px 35px;
+    width: 700px;
+    height: 300px;
+    border: 1px solid #DFDFDF;
+}
+.testimonial-box h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1A1A1A;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+.testimonial-box p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 450;
+    color: #707070;
+    font-style: italic;
+    line-height: 30px;
+    margin: 0;
+}
+.slick-track{
+    display: flex !important;
+}
+.slick-slide{
+    height: inherit !important;
+}
+.testimonial-slider .slick-dots{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    margin: 25px auto 0;
+}
+.testimonial-slider .slick-dots li{
+    line-height: 5px;
+    margin-right: 10px;
+}
+.testimonial-slider .slick-dots li:last-child{
+    margin: 0;
+}
+.testimonial-slider .slick-dots li button{
+    width: 10px;
+    height: 10px;
+    border:none;
+    font-size: 0px;
+    background: #D9D9D9;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.testimonial-slider .slick-dots li.slick-active button{
+    background: #504E73;
+}
+
+.sponcers-wrp{
+    padding: 50px 0 50px;
+    overflow: hidden;
+}
+.sponcers-wrp .slick-slide {
+    margin: 0 15px;
+}
+.sponcers-wrp .slick-list {
+    margin: 0 -15px;
+}
+.sponcer-box {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.sponcer-box img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: .4s linear;
+    -webkit-transition: .4s linear;
+}
+.sponcer-box:hover img{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+
+footer{
+    background: #191923;
+    position: relative;
+}
+footer .container{
+    border-right: 1px solid #454545;
+    border-left: 1px solid #454545;
+}
+.quicklinks{
+    padding: 10px 10px;
+    border-right: 1px solid #454545;
+    display: flex;
+    flex-flow: column;
+    height: 100%;;
+}
+.news-letter-box h3,
+.quicklinks h3{
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    color: #fff;
+}
+.quicklinks li a{
+    display: block;
+    padding: 5px 0;
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;
+    color: #B7B7B7;
+}
+.quicklinks li a:hover{
+    color: #fff;
+}
+.news-letter-box{
+    padding: 30px 30px;
+}
+.news-block{
+    position: relative;
+}
+.news-block .form-control{
+    padding: 20px;
+    height: auto;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.05);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+}
+.news-block .form-control::placeholder{
+    color: rgba(255, 255, 255, 0.40);
+}
+.news-block button{
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+}
+.news-block button:hover{
+    background: #fff;
+    color: #191923;
+}
+.copyright{
+    padding: 20px 0;
+    border-top: 1px solid #454545;
+}
+.copyright .container{
+    border: none;
+}
+.copyright p{
+    color: #B7B7B7;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+/* **** End Home Page **** */
+
+/* **** Weight Loss Page **** */
+.weight-loss-banner .banner-center .inner-content{
+    max-width: 600px;
+}
+.inner-content p{
+    color: #13131F;
+}
+.weight-loss-banner .banner-center h1{
+    color: #13131F;
+    font-size: 28px;
+    margin: 0 35px;
+    line-height: 55px;
+    text-align: left;
+}
+
+.weight-loss-banner .banner-center p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 20px;
+    text-align: left;
+    margin: 0 35px;
+    max-width: 700px;
+}
+.weight-loss-banner .scroll-wrp a{
+    color: #1A1A1A;
+}
+.btn-main{
+    padding: 10px 10px;
+    margin: 20px 40px;
+    background: #504E73;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: table;
+}
+.btn-main:hover{
+    background: #F8F0FC;
+    color: #504E73;
+}
+
+.intro-wrp .btn-main{
+    margin: 35px auto 0;
+}
+.weight-wrp{
+    padding: 75px 0;
+    background: #F8F0FC;
+}
+.weight-loss-block{
+    margin: 0 0 60px;
+}
+.weight-loss-block:last-child{
+    margin: 0;
+}
+.weight-loss-block h3{
+    font-size: 28px;
+    text-align: left;
+    font-weight: normal;
+    color: #515071;
+    margin: 0 0 20px;
+}
+.weight-loss-block h6{
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+    color: #515071;
+    margin: 0 0 35px;
+}
+.weight-wrp .weight-loss-block p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 25px;
+    text-align: left;
+    /* margin: 0 0 60px; */
+    max-width: 850px;
+}
+.weight-loss-block p{
+    margin: 0 0 20px;
+}
+.weight-loss-block p:last-child{
+    margin: 0;
+}
+.weight-loss-data h2{
+    font-size: 30px;
+    text-align: left;
+    
+}
+.weight-loss-data h6{
+    font-size: 20px;
+}
+.weight-loss-data p{
+    font-size: 17px;
+    text-align: left;
+}
+.therapy-wrp{
+    padding:100px 0 35px;
+}
+.therapy-wrp p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 28px;
+    text-align: left;
+    margin: 0 0 60px;
+    max-width: 850px;
+}
+.therapy-wrp .why-choose-box{
+    height:calc(100% - 30px);
+    padding: 50px 35px 30px;
+    margin: 0 0 30px;
+}
+.therapy-wrp .why-choose-box p{
+    margin: 0;
+}
+
+
+.faq-wrapper{
+    padding: 75px 0;
+    background: #F8F0FC;
+}
+.faq-wrapper .accordion .accordion-item{
+    margin: 0 0 30px;
+    background-color:#fff;
+    border: 1px solid #D0D0D0;
+    padding: 35px;
+}
+.faq-wrapper .accordion .accordion-item:last-child{
+    margin: 0;
+}
+.faq-wrapper .accordion .accordion-item .accordion-button {
+    font-size: 18px;
+    color:#1A1A1A;
+    font-weight: 500;
+    padding: 0 70px 0 0;
+    background-color: transparent;
+    position: relative;
+}
+.faq-wrapper .accordion .accordion-item .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
+.faq-wrapper .accordion .accordion-item .accordion-button:focus {
+    box-shadow: none;
+}
+.faq-wrapper .accordion .accordion-item .accordion-button::after {
+    display: none;
+}
+.faq-wrapper .accordion .accordion-item .accordion-button:before {
+    position: absolute;
+    content: "\f077";
+    font-family: "Font Awesome 5 Pro";
+    right: 0;
+    top: 50%;
+    font-size: 15px;
+    background: #FBFBFB;
+    border-radius: 100%;
+    color: #1A1A1A;
+    height:40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.faq-wrapper .accordion .accordion-item .accordion-button.collapsed:before {
+    content: "\f078";
+}
+.faq-wrapper .accordion .accordion-body {
+    padding: 30px 100px 0 0;
+}
+.faq-wrapper .accordion .accordion-body p{
+    max-width: 1000px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #1A1A1A;
+    line-height: 25px;
+    margin: 0;
+}
+.faq-ul li{
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    max-width: 1000px;
+    color: #1A1A1A;
+    line-height: 25px;
+    margin: 0;
+}
+.therapy-steps{
+    padding: 65px 0 15px;
+}
+.therapy-box{
+    margin: 50px 0;
+    display: flex;
+    flex-flow: column;
+    height: calc(100% - 100px);
+    padding: 95px 30px 45px;
+    background: #fff;
+    border: 1px solid #D0D0D0;
+    position: relative;
+}
+.therapy-box h4{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 100%;
+    border: 1px solid #D0D0D0;
+    line-height: 100px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #504E73;
+    text-align: center;
+    position: absolute;
+    top: -50px;
+    right: 30px;
+}
+.therapy-box h3{
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    color: #000;
+    margin: 0 0 15px;
+}
+.therapy-box p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #1A1A1A;
+    line-height: 28px;
+}
+/* **** End Weight Loss Page **** */
+
+/* **** Hormones Page **** */
+.why-choose-hormones-wrp{
+    padding: 100px 0;
+    background: #F8F0FC;
+}
+.why-choose-hormones-wrp .titlebar{
+    margin: 0 0 100px;
+}
+.hormones-block{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    padding: 100px 30px 50px;
+    border: 1px solid #D0D0D0;
+    position: relative;
+}
+.hormones-ic{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #D0D0D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F8F0FC;
+    position: absolute;
+    top: -60px;
+    right: 30px;
+}
+.hormones-ic img{
+    width: 50px;
+}
+.hormones-block h3{
+    font-size: 20px;
+    font-weight: normal;
+    color: #1A1A1A;
+    margin: 0 0 15px;
+}
+.hormones-block p{
+    margin: 0 0 15px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #1A1A1A;
+    line-height: 26px;
+}
+.hormones-block p:last-child{
+    margin: 0;
+}
+
+
+.womens-block-wrp{
+    padding: 85px 0;
+    background: #F8F0FC;
+    margin: 0 0 40px;
+}
+.womens-block-wrp h2{
+    text-align: left;
+}
+.womens-block-wrp p{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #1A1A1A;
+    line-height: 25px;
+    margin: 0 0 15px;
+}
+.womens-block-wrp p:last-child{
+    margin: 0;
+}
+
+.methods-wrp{
+    padding: 85px 0;
+    background: #F8F0FC;
+}
+.methods-wrp h2{
+    text-align: left;
+}
+.methods-wrp p{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    color: #1A1A1A;
+    line-height: 25px;
+    margin: 0 0 50px;
+    max-width: 950px;
+}
+.methods-list{
+    margin: 0 0 50px;
+}
+.methods-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.methods-list ul li{
+    width: 16.66%;
+    padding: 0 15px;
+}
+.methods-box{
+    padding: 50px 50px 35px;
+    border: 1px solid #D0D0D0;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+.method-ic{
+    margin: 0 auto 25px;
+}
+.methods-box h6{
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #1A1A1A;
+}
+.methods-benifits-block ul{
+    margin: 0 0 50px;
+    max-width: 950px;
+}
+.methods-benifits-block ul li{
+    margin: 0 0 20px;
+    padding: 15px 25px 15px 65px;
+    border: 1px solid #D0D0D0;
+    position: relative;
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+    line-height: 25px;
+}
+.methods-benifits-block ul li:before{
+    position:absolute;
+    content: '';
+    background: url('../images/checkic.svg') 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    top: 16px;
+    left: 15px;
+}
+/* **** End Hormones Page **** */
+
+/* **** Luminex Wellness Page **** */
+.why-otp-wrp{
+    padding: 100px 0;
+}
+.why-otp-wrp h6{
+    margin: 0 0 50px;
+    max-width: 900px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 28px;
+}
+.notebx h6{
+    margin: 0;
+}
+/* **** End Luminex Wellness Page **** */
+
+/* **** Peptides Page **** */
+.peptides-banner.weight-loss-banner .banner-center .inner-content{
+    max-width: 1050px;
+}
+.peptides-list-wrp{
+    padding: 50px 0 20px;
+}
+.peptides-box{
+    padding: 35px;
+    display: flex;
+    flex-flow: column;
+    height: calc(100% - 30px);
+    margin: 0 0 30px;
+    border: 1px solid #D0D0D0;
+}
+.peptides-box h3{
+    font-size: 32px;
+    font-weight: normal;
+    color: #000;
+    margin: 0 0 15px;
+}
+.peptides-box p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 30px;
+}
+.performance-box{
+    padding: 50px 30px 35px;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    border: 1px solid #D0D0D0;
+}
+.performance-box img{
+    margin: 0 0 15px;
+    width: 65px;
+}
+.performance-box h3{
+    font-size: 26px;
+    font-weight: normal;
+    color: #000;
+    line-height:36px;
+    min-height: 60px;
+    margin: 0 0 15px;
+}
+.performance-box p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 28px;
+    margin: 0;
+}
+/* **** End Peptides Page **** */
+
+
+/* **** Primary Care Page *** */
+.primary-care-banner .banner-center .inner-content{
+    max-width: 850px;
+}
+
+.primary-care-banner .banner-center h1{
+    margin: 0 0 15px;
+}
+.primary-care-banner .banner-center p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 25px;
+    margin: 0 0 30px;
+}
+.experience-healthcare-wrp{
+    padding: 100px 0;
+}
+.experience-healthcare-title{
+    max-width: 600px;
+    margin: 0 0 50px;
+}
+.experience-healthcare-title p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 28px;
+    margin: 0;
+}
+
+.experience-block{
+    padding: 35px;
+    border: 1px solid #D0D0D0;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    position: relative;
+}
+.experience-img{
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.experience-img img{
+    width: 60px;
+}
+.experience-block h3{
+    font-size:30px;
+    font-weight: normal;
+    color: #1A1A1A;
+    margin: 0 0 25px;
+    min-height: 80px;
+}
+.experience-block p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 25px;
+}
+
+
+.advantages-wrp{
+    padding: 85px 0 65px;
+    background: #F8F0FC;
+}
+.advantages-box{
+    display: flex;
+    flex-flow: column;
+    height: calc(100% - 30px);
+    margin: 0 0 30px;
+    border: 1px solid #D0D0D0;
+    padding: 30px;
+}
+.advantages-box p{
+    text-align: center;
+    font-size: 17px;
+    text-align: left;
+    font-weight: normal;
+    color: #000000;
+    margin: 0;
+}
+.advantages-wrp h6{
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 28px;
+    max-width: 950px;
+}
+
+
+.control-health-wrp{
+    padding: 100px 0;
+    overflow: hidden;
+}
+.control-health-wrp .titlebar h2{
+    text-align: center;
+    padding: 0 15px;
+}
+.control-health-wrp .slick-slide {
+    margin: 0 5px;
+}
+.control-health-wrp .slick-list {
+    margin: 0 -5px;
+}
+
+.control-health-block{
+    padding: 50px;
+    border: 1px solid #DFDFDF;
+}
+.control-health-block .row{
+    align-items: center;
+}
+.health-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+.health-data{
+    padding: 30px;
+    text-align: left;
+}
+.health-data h6{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #504E73;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
+}
+.health-data h3{
+    font-size: 35px;
+    font-weight: normal;
+    color: #1A1A1A;
+    text-align: left;
+    line-height: 52px;
+    margin: 0 0 25px;
+}
+.health-data p{
+    font-size: 17px;
+    text-align: left;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 26px;
+    margin: 0 0 20px;
+}
+
+.control-health-block.slick-slide{
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    opacity: 0.50;
+    transition: .4s linear;
+    -webkit-transition: .4s linear;
+}
+.control-health-block.slick-slide.slick-active.slick-center{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity:1;
+}
+
+
+.inner-testimonial-wrp{
+    background: #F8F0FC;
+}
+.inner-testimonial-wrp .testimonial-box{
+    background: #fff;
+}
+/* **** End Primary Care Page *** */
+
+/* **** Mental Health Page **** */
+.why-choose-treatment-wrp{
+    padding: 100px 0 70px;
+}
+.why-choose-treatment-wrp .titlebar h2{
+    text-align: center;
+}
+.advantages-wrp h2, h6{
+    text-align: left;
+}
+.experience-block h3{
+    text-align: left;
+}
+.experience-block p{
+    text-align: left;
+}
+.treatment-row{
+    padding: 50px;
+    border: 1px solid #DFDFDF;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.treatment-row .row{
+    align-items: center;
+}
+.treatment-img img{
+    width: 100%;
+}
+.treatment-data{
+    padding: 0 0 0 30px;
+}
+.treatment-data ul li{
+    margin: 0 0 30px;
+    padding: 15px 25px 15px 65px;
+    border: none;
+    background: #F8F0FC;
+    position: relative;
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
+    text-align: left;
+    line-height: 20px;
+}
+.treatment-data ul li:before{
+    position:absolute;
+    content: '';
+    background: url('../images/checkic.svg') 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    top: 16px;
+    left: 15px;
+}
+
+.why-now-wrp{
+    padding: 100px 0 0;
+}
+.choose-treatment-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 0 0 30px;
+    padding: 50px 30px 25px;
+    min-height: 250px;
+    border: 1px solid #D0D0D0;
+}
+.choose-title h3{
+    font-size: 24px;
+    font-weight: normal;
+    color: #1A1A1A;
+    margin: 0 0 5px;
+}
+.choose-title p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #1A1A1A;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    
+}
+
+.choose-treatment-box a{
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #504E73;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #504E73;
+    margin: 0;
+    width: fit-content;
+    display: table;
+}
+.choose-treatment-box a:hover{
+    color: #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+}
+/* **** End Mental Health Page **** */
+
+/* **** Ketamine Therapy Page **** */
+.banner-center h2 {
+    color: #fff;
+    font-size: 35px;
+ font-weight: normal;
+    margin: 0 35px;
+    line-height: 35px;
+    text-align: left;
+}
+.banner-center .inner-content p{
+    color: #fff;
+    font-size: 18px;
+ font-weight: normal;
+    margin: 35px;
+    line-height: 25px;
+    text-align: left;
+}
+.experience-healthcare-title h2{
+    font-size: 25px;
+ font-weight: normal;
+    margin: 35px;
+    line-height: 25px;
+    text-align: left;
+}
+.experience-healthcare-title p{
+    font-size: 18px;
+ font-weight: normal;
+    margin: 35px;
+    line-height: 25px;
+    text-align: left;
+}
+.deserve-box .experience-img{
+    margin: 0 auto 25px;
+    justify-content: center;
+}
+.deserve-box .experience-img img{
+    width: 100px;
+}
+.deserve-box h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+.include-box{
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    padding: 25px;
+    margin: 0 0 30px;
+    min-height: 100px;
+    height: calc(100% - 30px);
+}
+.include-box img{
+    min-width: 30px;
+    width: 30px;
+    margin: 5px 15px 0 0;
+}
+.include-box p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #000;
+    line-height: 20px;
+    max-width: 600px;
+}
+
+.side-effects-wrp{
+    padding: 100px 0 25px;
+}
+.side-effects-box{
+    padding: 60px 80px 80px;
+    border: 1px solid #D0D0D0;
+}
+.side-effects-box h3{
+    font-size: 40px;
+    font-weight: normal;
+    color: #515071;
+    margin: 0 0 45px;
+}
+.side-progress{
+    margin: 0 0 60px;
+}
+.side-progress h4{
+    font-size: 15px;
+    font-weight: normal;
+    color: #515071;
+    display: block;
+    margin: 0 0 10px;
+}
+.side-progress-bar{
+    position: relative;
+    width: 100%;
+    height: 9px;
+    border-radius: 10px;
+    background: #F6F6F6;
+}
+.side-progress:last-child{
+    margin: 0;
+}
+.progress-status{
+    height: 9px;
+    border-radius: 10px;
+    background: #515071;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress-status h6{
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    font-size: 18px;
+    font-weight: normal;
+    color:#515071;
+    margin: 0;
+}
+/* **** End Ketamine Therapy Page **** */
+
+/* **** Personal Coaching **** */
+.coaching-step-wrp{
+    background: #fff;
+}
+.coaching-step-wrp .titlebar h6{
+    font-size: 16px;
+    font-weight: normal;
+    color: #1A1A1A;
+    text-align: left;
+    margin: 0 15px;
+    padding: 10px;
+}
+.coaching-step-wrp .titlebar h2{
+    text-align: left;
+    margin:  0 15px;
+    padding: 10px;
+}
+.coaching-step-wrp .jurney-box p{
+    max-width: 300px;
+}
+
+.everything-wrp{
+    padding: 80px 0;
+    background: #F8F0FC;
+}
+.everything-wrp .row{
+    align-items: center;
+}
+.everything-img img{
+    width: 100%;
+}
+.everything-data{
+    padding: 0 100px 0 0;
+}
+.everything-data h3{
+    font-size: 28px;
+    font-weight: 400;
+    color: #515071;
+    line-height: 25px;
+    margin: 35px;
+}
+.everything-data p{
+    margin: 35px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #1A1A1A;
+    line-height: 20px;
+}
+
+.life-guidence-wrp{
+    padding: 100px 0;
+}
+.life-guidence-wrp .titlebar h2{text-align: center;}
+.life-guidence-wrp p{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #1A1A1A;
+    line-height: 25px;
+}
+
+.faq-ul{
+    font-size: 20px;
+    padding: 12px;
+}
+.faq-ul li{
+    padding-bottom:15px;
+}
+.mobile-image {
+    display:none;
+}
+/* **** End Personal Coaching **** */
+
+/* **** Blog Pages **** */
+.blog-wrpper{
+    padding: 100px 0 65px;
+}
+.blog-wrpper .row{
+    margin: 0 -35px;
+}
+.blog-wrpper .row .col-md-4{
+    padding: 0 35px;
+}
+.blog-block{
+    margin: 0 0 45px;
+    border: 1px solid #D0D0D0;
+}
+.blog-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.blog-data{
+    padding: 45px;
+}
+.blog-data h6{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #777;
+    margin: 0 0 15px;
+}
+.blog-data h6 i{
+    margin-right: 5px;
+}
+.blog-data h3{
+    font-size: 23px;
+    font-weight: 600;
+    color: #111;
+    margin: 0 0 25px;
+    line-height: 20px;
+}
+.blog-data p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #707070;
+    text-align: left;
+    line-height: 20px;
+    margin: 0 0 25px;
+}
+.blog-data a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #504E73;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #504E73;
+    margin: 0;
+    width: fit-content;
+    display: table;
+}
+.blog-data a:hover{
+    color: #777;
+    border-bottom: 1px solid #777;
+}
+
+.blog-details-wrp{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.blog-details-img{
+    margin: 0 0 50px;
+}
+.blog-details-img img{
+    width: 100%;
+}
+.blog-details-wrp h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #777;
+    margin: 0 0 15px;
+}
+.blog-details-wrp h6 i{
+    margin-right: 5px;
+}
+.blog-details-wrp h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 30px;
+}
+.blog-details-wrp p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    line-height: 30px;
+    margin: 0 0 25px;
+}
+.blog-details-wrp ul{
+    margin: 0 0 25px;
+}
+.blog-details-wrp ul li{
+    display: block;
+    padding: 5px 0 5px 20px;
+    position: relative;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    line-height: 30px;
+}
+.blog-details-wrp ul li:before{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background:#504E73;
+    border-radius: 50%;
+    top: 17px;
+    left: 0;
+}
+.blog-details-wrp h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #111;
+    margin: 0 0 15px;
+}
+.blog-details-wrp h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 20px;
+}
+.backbtn{
+    display: table;
+    margin: 0 0 35px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.backbtn i{
+    margin-right: 10px;
+}
+.backbtn:hover{
+    color: #515071;
+}
+.blog-details-wrapper{
+    padding: 50px 0;
+}
+/* **** End Blog Pages **** */
